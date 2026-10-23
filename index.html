@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>US Info Dashboard data</title>
+  <style>
+    body { font-family: Segoe UI, Arial, sans-serif; margin: 2rem auto; max-width: 960px; padding: 0 1rem; }
+    table { border-collapse: collapse; width: 100%; }
+    td, th { border-bottom: 1px solid #ddd; padding: .4rem; text-align: left; vertical-align: top; }
+  </style>
+</head>
+<body>
+  <h1>US Info Dashboard data</h1>
+  <p>Data and API addresses the Ultimate US Info Dashboard app downloads on first launch.
+     Version 2026-10-23T18:50:27Z. The app reads <a href="manifest.json">manifest.json</a> and
+     <a href="sources.json">sources.json</a>.</p>
+  <h2>APIs</h2>
+  <ul>
+      <li><b>National Weather Service alerts</b>: https://api.weather.gov/</li>
+      <li><b>National Weather Service station observations</b>: https://api.weather.gov/</li>
+      <li><b>FAA SWIM flight data (TFMS)</b>: tcps://ems1.swim.faa.gov:55443</li>
+  </ul>
+  <h2>Map data</h2>
+  <table>
+    <tr><th>File</th><th>What it is</th><th>Source</th></tr>
+      <tr><td><a href="map/states_coarse.bin">map/states_coarse.bin</a></td><td>State borders for zoomed-out views</td><td>US Census Bureau cartographic boundaries 1:20,000,000 (2024)</td></tr>
+      <tr><td><a href="map/states_fine.bin">map/states_fine.bin</a></td><td>Detailed state borders</td><td>US Census Bureau cartographic boundaries 1:5,000,000 (2024)</td></tr>
+      <tr><td><a href="map/counties_coarse.bin">map/counties_coarse.bin</a></td><td>County borders</td><td>US Census Bureau cartographic boundaries 1:20,000,000 (2024)</td></tr>
+      <tr><td><a href="map/counties_fine.bin">map/counties_fine.bin</a></td><td>Detailed county borders</td><td>US Census Bureau cartographic boundaries 1:5,000,000 (2024)</td></tr>
+      <tr><td><a href="map/cities.csv">map/cities.csv</a></td><td>Cities over 5,000 people plus every state capital</td><td>US Census Bureau 2024 Gazetteer and population estimates</td></tr>
+      <tr><td><a href="map/roads_major.bin">map/roads_major.bin</a></td><td>Interstates and other limited-access highways</td><td>US Census Bureau TIGER/Line primary roads (2024)</td></tr>
+      <tr><td><a href="map/airports.tsv.gz">map/airports.tsv.gz</a></td><td>US airport locations and codes</td><td>OurAirports via the DataHub airport-codes mirror (public domain)</td></tr>
+  </table>
+</body>
+</html>

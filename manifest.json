@@ -1,0 +1,50 @@
+{
+  "version": "2026-10-23T18:50:27Z",
+  "files": [
+    {
+      "path": "map/states_coarse.bin",
+      "size": 110028,
+      "sha256": "2a1aaaa462e552475cd02d8fffaf455ebb9490f8f4b1b7521c2352af1b435144"
+    },
+    {
+      "path": "map/states_fine.bin",
+      "size": 728532,
+      "sha256": "cf7e6907f7acbe90352d04fa0d53c257e22d62fa5e1c018e0007e46775c78179"
+    },
+    {
+      "path": "map/counties_coarse.bin",
+      "size": 542696,
+      "sha256": "21b714e4d27b7f53473b8235010dbc2adccfe67d73e61940b514842e84950468"
+    },
+    {
+      "path": "map/counties_fine.bin",
+      "size": 1891496,
+      "sha256": "422445fecf3d036a517fc5beb93c5d74bf0fae4097307b98831d0918a938f575"
+    },
+    {
+      "path": "map/cities.csv",
+      "size": 208776,
+      "sha256": "5a9a98a36e74a00780eb869b0b7c614c1156f3a342ec3674dc1dc1d077ea3352"
+    },
+    {
+      "path": "map/roads_major.bin",
+      "size": 1528306,
+      "sha256": "f8b021b596769b2675f5d77db31697af3858f90856d6ed71a4e6c90a48ed7c68"
+    },
+    {
+      "path": "map/airports.tsv.gz",
+      "size": 712818,
+      "sha256": "492b929d90f3cb550dd230d1d4590c4145b0b19ea60d44aad140e85b2f771dcf"
+    },
+    {
+      "path": "map/AIRPORTS-LICENSE.txt",
+      "size": 574,
+      "sha256": "8fe9886828e187bbb05e5c5a4dfdcc28225ff56e259cd93157af827eb8d96a2b"
+    },
+    {
+      "path": "sources.json",
+      "size": 2259,
+      "sha256": "2f8fe0cd835096e5a7b6a0a302bace4f788dbe6170c5c4d15a034c94f4eb62d1"
+    }
+  ]
+}

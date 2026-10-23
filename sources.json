@@ -1,0 +1,44 @@
+{
+  "sources": [
+    {
+      "id": "nws",
+      "name": "National Weather Service alerts",
+      "type": "rest",
+      "baseUrl": "https://api.weather.gov/",
+      "endpoints": {
+        "alertsForState": "alerts/active?area={state}",
+        "alertCount": "alerts/active/count"
+      },
+      "docs": "https://www.weather.gov/documentation/services-web-api"
+    },
+    {
+      "id": "nws-obs",
+      "name": "National Weather Service station observations",
+      "type": "rest",
+      "baseUrl": "https://api.weather.gov/",
+      "endpoints": {
+        "stationsInState": "stations?state={state}&limit={limit}",
+        "latestObservation": "stations/{stationId}/observations/latest"
+      },
+      "docs": "https://www.weather.gov/documentation/services-web-api"
+    },
+    {
+      "id": "faa",
+      "name": "FAA SWIM flight data (TFMS)",
+      "type": "solace",
+      "host": "tcps://ems1.swim.faa.gov:55443",
+      "vpn": "TFMS",
+      "note": "Needs a SWIM account. Usernames, passwords and queue names are never stored here.",
+      "docs": "https://www.faa.gov/air_traffic/technology/swim"
+    }
+  ],
+  "mapData": [
+    { "file": "map/states_coarse.bin", "description": "State borders for zoomed-out views", "source": "US Census Bureau cartographic boundaries 1:20,000,000 (2024)" },
+    { "file": "map/states_fine.bin", "description": "Detailed state borders", "source": "US Census Bureau cartographic boundaries 1:5,000,000 (2024)" },
+    { "file": "map/counties_coarse.bin", "description": "County borders", "source": "US Census Bureau cartographic boundaries 1:20,000,000 (2024)" },
+    { "file": "map/counties_fine.bin", "description": "Detailed county borders", "source": "US Census Bureau cartographic boundaries 1:5,000,000 (2024)" },
+    { "file": "map/cities.csv", "description": "Cities over 5,000 people plus every state capital", "source": "US Census Bureau 2024 Gazetteer and population estimates" },
+    { "file": "map/roads_major.bin", "description": "Interstates and other limited-access highways", "source": "US Census Bureau TIGER/Line primary roads (2024)" },
+    { "file": "map/airports.tsv.gz", "description": "US airport locations and codes", "source": "OurAirports via the DataHub airport-codes mirror (public domain)" }
+  ]
+}

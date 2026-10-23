@@ -1,0 +1,8 @@
+Airport coordinates and identifiers: OurAirports (https://ourairports.com/data/), public domain.
+Bundled US-only extract obtained from the DataHub airport-codes mirror:
+https://github.com/datasets/airport-codes
+https://raw.githubusercontent.com/datasets/airport-codes/main/archive/data.csv
+
+Rebuild with tools/map-data/make_airport_file.py. Closed facilities and regions outside the
+50 states plus DC are omitted. ICAO/GPS, IATA, FAA/local, and dataset identifiers are retained.
+The airport catalog is an offline geographic lookup, independent of the FAA live feed.
