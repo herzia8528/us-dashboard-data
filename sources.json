@@ -39,6 +39,7 @@
     { "file": "map/counties_fine.bin", "description": "Detailed county borders", "source": "US Census Bureau cartographic boundaries 1:5,000,000 (2024)" },
     { "file": "map/cities.csv", "description": "Cities over 5,000 people plus every state capital", "source": "US Census Bureau 2024 Gazetteer and population estimates" },
     { "file": "map/roads_major.bin", "description": "Interstates and other limited-access highways", "source": "US Census Bureau TIGER/Line primary roads (2024)" },
+    { "file": "map/roads_secondary.bin", "description": "U.S. routes and state highways", "source": "US Census Bureau TIGER/Line primary and secondary roads, by state (2024)" },
     { "file": "map/airports.tsv.gz", "description": "US airport locations and codes", "source": "OurAirports via the DataHub airport-codes mirror (public domain)" }
   ]
 }

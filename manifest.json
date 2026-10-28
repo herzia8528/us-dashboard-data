@@ -1,5 +1,5 @@
 {
-  "version": "2026-10-23T18:50:54Z",
+  "version": "2026-10-28T15:56:36Z",
   "files": [
     {
       "path": "map/states_coarse.bin",
@@ -32,6 +32,11 @@
       "sha256": "f8b021b596769b2675f5d77db31697af3858f90856d6ed71a4e6c90a48ed7c68"
     },
     {
+      "path": "map/roads_secondary.bin",
+      "size": 9124512,
+      "sha256": "f9043ce0804faf916a571bad7c9f57b88b844349bfb4e3080fb73c75fa296101"
+    },
+    {
       "path": "map/airports.tsv.gz",
       "size": 712818,
       "sha256": "492b929d90f3cb550dd230d1d4590c4145b0b19ea60d44aad140e85b2f771dcf"
@@ -43,8 +48,8 @@
     },
     {
       "path": "sources.json",
-      "size": 2259,
-      "sha256": "2f8fe0cd835096e5a7b6a0a302bace4f788dbe6170c5c4d15a034c94f4eb62d1"
+      "size": 2437,
+      "sha256": "4546926749fa130eeacdf749daca63268cdf59e1cd7fab05b1063938d0277d25"
     }
   ]
 }
